@@ -1,0 +1,59 @@
+body{
+	background-color: silver;
+}
+
+.heart{
+}
+
+.circle-left, .circle-right, .bottom{
+	position: absolute;
+	top: 50%;
+}
+
+.circle-left{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #A60000;
+	left: 452px;
+}
+
+.circle-right{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #A60000;
+	left: 548px;
+}
+
+.bottom{
+	width: 107px;
+	height: 107px;
+	background-color: #A60000;
+	left: 496px;
+	top: 518px;
+	transform: rotate(45deg);
+	border-radius: 50% 0 20px 0;
+}
+
+.circle-left2, .circle-right2{
+	position: absolute;
+	top: 480px;
+}
+
+.heart2{
+	position: absolute;
+	left: 200px;
+	top: 0;
+}
+
+.circle-left3, .circle-right3{
+	position: absolute;
+	top: 480px;
+}
+
+.heart3{
+	position: absolute;
+	left: -200px;
+	top: 0;
+}
